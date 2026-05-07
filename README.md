@@ -1,6 +1,6 @@
 # Disentangling Safety and Harm: Do Behavioral Signals Share Geometry Across Models?
 
-This repository contains the code and result files for a CS639 final project studying whether safety-relevant behavioral representations are preserved across post-trained large reasoning models.
+This repository contains the code and result files studying whether safety-relevant behavioral representations are preserved across post-trained large reasoning models.
 
 The project compares cross-model geometry at four levels:
 
