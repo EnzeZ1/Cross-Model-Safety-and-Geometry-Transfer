@@ -1,0 +1,24 @@
+Shared: 15 behaviors, 64 layers
+
+Behavior                             Peak A  Peak B   |d|  CurveCorr
+-----------------------------------------------------------------
+AL                                  L47    L22       25      0.775
+CC                                  L19    L14        5      0.664
+CE                                  L30    L13       17      0.583
+CR                                  L26    L57       31      0.382
+DKE                                 L47    L51        4      0.728
+ED                                  L32    L15       17      0.482
+FL                                  L32    L32        0      0.604
+HV                                  L50    L26       24      0.693
+IA                                  L26    L14       12      0.801
+IR                                  L47    L17       30      0.626
+OB                                  L32    L42       10      0.862
+PS                                  L31    L15       16      0.570
+RA                                  L25    L53       28      0.667
+RS                                  L16    L10        6      0.404
+TD                                  L47    L16       31      0.682
+
+MLP curve correlation: mean=0.635
+Saved cross_jsd_results.txt
+Plots: cross_jsd_plots/
+Done.

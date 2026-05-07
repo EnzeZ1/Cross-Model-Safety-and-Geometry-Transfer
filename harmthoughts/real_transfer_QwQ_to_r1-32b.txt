@@ -1,0 +1,18 @@
+Real Transfer: QwQ -> r1-32b
+AL                                  base=0.865 trans=0.778 gap=-0.087
+CC                                  base=0.871 trans=0.861 gap=-0.010
+CE                                  base=0.792 trans=0.754 gap=-0.038
+CR                                  base=0.944 trans=0.921 gap=-0.024
+DKE                                 base=0.778 trans=0.784 gap=+0.006
+ED                                  base=0.910 trans=0.827 gap=-0.083
+FL                                  base=0.822 trans=0.786 gap=-0.036
+HV                                  base=0.878 trans=0.769 gap=-0.110
+IA                                  base=0.786 trans=0.729 gap=-0.057
+IR                                  base=0.919 trans=0.765 gap=-0.154
+OB                                  base=0.794 trans=0.816 gap=+0.022
+PS                                  base=0.814 trans=0.828 gap=+0.013
+RA                                  base=0.830 trans=0.728 gap=-0.102
+RS                                  base=0.992 trans=0.736 gap=-0.256
+TD                                  base=0.815 trans=0.815 gap=+0.000
+
+Overall: base=0.854 trans=0.793 gap=-0.061

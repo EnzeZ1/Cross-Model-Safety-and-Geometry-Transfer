@@ -1,0 +1,16 @@
+Loading actsvd_r1-32b.safetensors ...
+Loading actsvd_QwQ.safetensors ...
+Shared: 448 weight matrices
+
+                                                      Attn          MLP
+------------------------------------------------------------------------
+  phi(Us,Uu) r1-32b                             0.4448+/-0.054 0.3692+/-0.048
+  phi(Us,Uu) QwQ                                0.5124+/-0.042 0.4551+/-0.038
+  phi(Us^A,Us^B) safety                         0.2757+/-0.086 0.1528+/-0.066
+  phi(Uu^A,Uu^B) utility                        0.2843+/-0.087 0.1605+/-0.067
+  phi cross-type                                0.2747+/-0.088 0.1497+/-0.067
+
+KEY: cross-model safety phi=0.2230 vs within phi=0.4124
+Saved cross_actsvd_results.txt
+Plots: cross_actsvd_plots/
+Done.
