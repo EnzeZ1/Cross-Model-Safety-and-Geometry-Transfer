@@ -8,11 +8,6 @@ GPUS="0,1,2,3,4,5,6,7"
 QWEN_HF="Qwen/Qwen3-8B"
 R1_HF="deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
 
-echo "╔════════════════════════════════════════════╗"
-echo "║  AISafety-Student: qwen3-8b + r1-8b-0528   ║"
-echo "║  GPUs: [$GPUS]                             ║"
-echo "╚════════════════════════════════════════════╝"
-
 echo ""; echo "════ qwen3-8b ════"
 python -u safety_student_data.py qwen3-8b
 python -u work_actsvd2.py "$GPUS" "$QWEN_HF" qwen3-8b 100 100 2>&1 | tee log_qwen3-8b_actsvd.txt
@@ -36,9 +31,5 @@ echo ""; echo "════ Transfer: r1-8b-0528 → qwen3-8b ════"
 python -u safety_student_data.py qwen3-8b
 python -u real_transfer.py "$GPUS" "$QWEN_HF" qwen3-8b dom_r1-8b-0528.safetensors r1-8b-0528 qwen3-8b 2>&1 | tee log_transfer_r1-8b-0528_to_qwen3-8b.txt
 
-echo ""
-echo "╔══════════════════════════╗"
-echo "║  All done!               ║"
-echo "╚══════════════════════════╝"
 ls -lh actsvd_*.safetensors dom_*.safetensors jsd_*.json 2>/dev/null
 ls -lh *results*.txt real_transfer_*.txt 2>/dev/null
