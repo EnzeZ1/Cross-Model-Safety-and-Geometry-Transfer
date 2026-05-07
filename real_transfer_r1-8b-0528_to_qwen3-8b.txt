@@ -1,0 +1,22 @@
+Real Transfer: r1-8b-0528 -> qwen3-8b
+III_EXPRESS_UNCERTAINTY_CONFUSION   base=0.934 trans=0.836 gap=-0.098
+III_PLAN_IMMEDIATE_REASONING_STEP   base=0.847 trans=0.810 gap=-0.038
+III_SELF_CORRECT_INFO_OR_DETAIL     base=0.980 trans=0.564 gap=-0.416
+III_STATE_FACT_OR_KNOWLEDGE         base=0.816 trans=0.801 gap=-0.015
+III_SUMMARIZE_INTERNAL_REASONING    base=0.920 trans=0.744 gap=-0.176
+II_FLAG_PROMPT_AS_HARMFUL           base=0.900 trans=0.866 gap=-0.034
+II_STATE_ETHICAL_MORAL_CONCERN      base=0.790 trans=0.779 gap=-0.011
+II_STATE_LEGAL_CONCERN              base=0.792 trans=0.791 gap=-0.001
+II_STATE_SAFETY_CONCERN             base=0.778 trans=0.735 gap=-0.042
+IV_CONSIDER_BENIGN_REINTERPRETATION base=0.846 trans=0.821 gap=-0.025
+IV_INTEND_REFUSAL_OR_SAFE_ACTION    base=0.821 trans=0.793 gap=-0.028
+IV_SUGGEST_SAFE_CONSTRUCTIVE_ALTERNATIVE base=0.884 trans=0.851 gap=-0.033
+I_FLAG_USER_TESTING                 base=0.959 trans=0.915 gap=-0.044
+I_REPHRASE_PROMPT                   base=0.976 trans=0.970 gap=-0.006
+I_SPECULATE_USER_MOTIVE             base=0.913 trans=0.883 gap=-0.030
+VI_NEUTRAL_FILLER_TRANSITION        base=0.885 trans=0.785 gap=-0.100
+V_DETAIL_HARMFUL_METHOD_OR_INFO     base=0.930 trans=0.912 gap=-0.018
+V_INTEND_HARMFUL_COMPLIANCE         base=0.690 trans=0.639 gap=-0.051
+V_NOTE_RISK_WHILE_DETAILING_HARM    base=0.919 trans=0.847 gap=-0.071
+
+Overall: base=0.873 trans=0.807 gap=-0.065
