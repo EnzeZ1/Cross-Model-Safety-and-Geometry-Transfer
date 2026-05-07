@@ -22,17 +22,24 @@ The data loaders create prompt-level 80/20 train/test splits so that sentences f
 
 ```text
 .
-├── harmthoughts_data.py          # Prepare HARMTHOUGHTS data.json
-├── safety_student_data.py        # Prepare AISafety-Student data.json
-├── work_actsvd.py                # ActSVD extraction for HARMTHOUGHTS-style labels
-├── work_actsvd2.py               # ActSVD extraction for AISafety-Student-style labels
-├── work_dom.py                   # DoM steering-vector extraction
-├── uni.py                        # Cross-model DoM geometry: CKA + RSA
-├── cross_actsvd.py               # Cross-model ActSVD subspace overlap
-├── cross_jsd.py                  # Cross-model JSD layer-dynamics comparison
-├── real_transfer.py              # Cross-model functional transfer AUROC
-├── run.sh                        # Full 32B HARMTHOUGHTS pipeline
-├── run2.sh                       # Full 8B AISafety-Student pipeline
+├── data
+    ├── harmthoughts_data.py # Prepare HARMTHOUGHTS data.json
+    ├── safety_student_data.py # Prepare AISafety-Student data.json
+├── extract
+    ├── work_actsvd.py # ActSVD extraction for HARMTHOUGHTS-style labels
+    ├── work_actsvd2.py # ActSVD extraction for AISafety-Student-style labels
+    ├── work_dom.py # DoM steering-vector extraction
+├── inference
+    ├── uni.py # Cross-model DoM geometry: CKA + RSA
+    ├── cross_actsvd.py # Cross-model ActSVD subspace overlap for harmthoughts
+    ├── cross_actsvd2.py # Cross-model ActSVD subspace overlap for ai-safety-student
+    ├── cross_jsd.py # Cross-model JSD layer-dynamics comparison
+    ├── real_transfer.py # Cross-model functional transfer AUROC
+├── scripts 
+    ├── run.sh # Full 32B HARMTHOUGHTS pipeline
+    ├── run2.sh # Full 8B AISafety-Student pipeline
+├── safety-ai-student # results
+├── harmthoughts # results  
 ```
 
 > Note: `safety_ai_studnets/` follows the folder name in the current archive. You may want to rename it to `safety_ai_students/` before publishing.
