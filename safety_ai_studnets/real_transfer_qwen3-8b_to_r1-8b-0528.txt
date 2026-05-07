@@ -1,0 +1,26 @@
+======================================================================
+REAL TRANSFER: qwen3-8b -> r1-8b-0528
+======================================================================
+Behavior                               Base   Trans     Gap
+III_EXPRESS_UNCERTAINTY_CONFUSION     0.834   0.724  -0.110
+III_PLAN_IMMEDIATE_REASONING_STEP     0.814   0.741  -0.073
+III_SELF_CORRECT_INFO_OR_DETAIL       0.855   0.626  -0.228
+III_STATE_FACT_OR_KNOWLEDGE           0.837   0.801  -0.036
+III_SUMMARIZE_INTERNAL_REASONING      0.811   0.657  -0.154
+II_FLAG_PROMPT_AS_HARMFUL             0.885   0.841  -0.043
+II_STATE_ETHICAL_MORAL_CONCERN        0.776   0.749  -0.027
+II_STATE_LEGAL_CONCERN                0.821   0.811  -0.011
+II_STATE_SAFETY_CONCERN               0.791   0.761  -0.030
+IV_CONSIDER_BENIGN_REINTERPRETATION   0.752   0.728  -0.023
+IV_INTEND_REFUSAL_OR_SAFE_ACTION      0.843   0.794  -0.049
+IV_SUGGEST_SAFE_CONSTRUCTIVE_ALTERNATIVE   0.844   0.828  -0.016
+I_FLAG_USER_TESTING                   0.927   0.914  -0.013
+I_REPHRASE_PROMPT                     0.940   0.909  -0.031
+I_SPECULATE_USER_MOTIVE               0.898   0.868  -0.030
+VI_NEUTRAL_FILLER_TRANSITION          0.762   0.680  -0.082
+VI_OTHER                              0.943   0.708  -0.235
+V_DETAIL_HARMFUL_METHOD_OR_INFO       0.961   0.923  -0.039
+V_INTEND_HARMFUL_COMPLIANCE           0.979   0.631  -0.348
+V_NOTE_RISK_WHILE_DETAILING_HARM      0.979   0.701  -0.278
+
+OVERALL                               0.863   0.770  -0.093
